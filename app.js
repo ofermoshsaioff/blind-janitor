@@ -1,4 +1,5 @@
-var express = require('express');
+var express = require('express'),
+	partials = require('express-partials');
 var app = express();
 
 exports.init = function (port) {
@@ -8,6 +9,8 @@ exports.init = function (port) {
         app.use(express.bodyParser());
         app.use(express.methodOverride());
         app.use(express.logger());
+		// load the express-partials middleware
+		app.use(partials());
         app.use(express.static(__dirname + '/public'));
 
         // add middleware to remove trailing slash in urls

@@ -1,0 +1,20 @@
+
+
+<div class="row-fluid">
+	<ul class="thumbnails">
+	<% for (var i=0; i<albums.length; i++) { %>
+		<li>
+			<div class="row-fluid span10">
+				<div align="left">
+					<h1> <%= albums[i].artist %> </h1>
+					<h4> <%= albums[i].album %> </h4>
+					<img src="img/albums/<%=albums[i].img%>">
+				</div>
+			</div>
+		</li>
+	<% } %>
+	</ul>
+</div>
+
+
+
