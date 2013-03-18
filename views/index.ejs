@@ -9,9 +9,9 @@
 			<div class="row-fluid span12">
 				<div align="center">					
 					<a href="/reviews/<%= albums[i].path %>"><img src="<%=albums[i].album_cover%>" height="220" width="220"></a>
-					<h4> <%= albums[i].album %> </h4>
+					<h4 dir="ltr"> <%= albums[i].album %> </h4>
 					<p dir="ltr"> <%= albums[i].artist %> (<%= albums[i].year%>)</p>
-					<p>Reviewer: <%= albums[i].reviewer%> </p>
+					<p dir="ltr">Reviewer: <%= albums[i].reviewer%> </p>
 				</div>
 			</div>
 		</li>
