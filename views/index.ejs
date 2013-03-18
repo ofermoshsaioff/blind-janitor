@@ -8,7 +8,7 @@
 		<li>
 			<div class="row-fluid span12">
 				<div align="center">					
-					<img src="img/albums/<%=albums[i].album_cover%>" height="220" width="220">
+					<a href="/reviews/<%= albums[i].path %>"><img src="<%=albums[i].album_cover%>" height="220" width="220"></a>
 					<h4> <%= albums[i].album %> </h4>
 					<p> <%= albums[i].artist %> (<%= albums[i].year%>)</p>
 					<p>Reviewer: <%= albums[i].reviewer%> </p>

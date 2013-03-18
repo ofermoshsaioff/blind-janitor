@@ -8,7 +8,6 @@ module.exports = function(file, callback) {
 		console.log(err);
         return callback(err, null);
     }
-	console.log(marked(data));
     return callback(null, marked(data));
   });
 }

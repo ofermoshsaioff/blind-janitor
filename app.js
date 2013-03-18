@@ -12,7 +12,7 @@ exports.init = function (port) {
 		// load the express-partials middleware
 		app.use(partials());
         app.use(express.static(__dirname + '/public'));
-		app.use('/reviews', express.static(__dirname + '/reviews', { redirect : false }));		
+		app.use('/reviews', express.static(__dirname + '/reviews'));		
         app.use(app.router);
         app.enable("jsonp callback");
     });

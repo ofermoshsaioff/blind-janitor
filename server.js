@@ -1,10 +1,11 @@
 var port = process.env.PORT || 8888,
     app = require('./app').init(port),
-	markdown = require('./markdown');
+	markdown = require('./markdown'),
+	reviews = require('./reviews.json');
 
 
 app.get('/', function (req, res) {
-  res.render('index', {'albums': []});  
+  res.render('index', {'albums': reviews});  
 });
 
 app.get('/reviews/:name', function (req, res) {
