@@ -6,7 +6,8 @@
 	"express": "3.x.x",
 	"ejs": ">=0.0.0",
 	"express-partials": ">=0.0.6",
-	"mongojs":"0.7.x"
+	"marked":"x.x.x",
+	"fs": "x.x.x"
   },
   "engines": {
     "node": "0.8.11",

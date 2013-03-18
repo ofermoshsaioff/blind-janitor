@@ -12,14 +12,7 @@ exports.init = function (port) {
 		// load the express-partials middleware
 		app.use(partials());
         app.use(express.static(__dirname + '/public'));
-
-        // add middleware to remove trailing slash in urls
-        app.use(function (req, res, next) {
-            if (req.url.substr(-1) == '/' && req.url.length > 1) {
-                res.redirect(301, req.url.slice(0, -1));
-            }
-            next();
-        });
+		app.use('/reviews', express.static(__dirname + '/reviews', { redirect : false }));		
         app.use(app.router);
         app.enable("jsonp callback");
     });
@@ -40,10 +33,7 @@ exports.init = function (port) {
     });
 
     app.use(function (err, req, res, next) {
-        res.render('500.ejs', {
-            locals: {
-                error: err
-            },
+        res.render('500.ejs', {            
             status: 500
         });
     });
