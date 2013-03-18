@@ -4,6 +4,7 @@
 			"artist":		"Blind Melon",
 			"reviewer":		"Ofer Moshaioff",
 			"path":			"blind_melon",
+			"year":			"1992",
 			"album_cover":	"http://upload.wikimedia.org/wikipedia/en/thumb/0/05/BlindMelonBlindMelon.jpg/220px-BlindMelonBlindMelon.jpg"
 	},
 	{
@@ -11,6 +12,7 @@
 			"artist":		"The Who",
 			"reviewer":		"Ofer Moshaioff",
 			"path":			"whos_next",
+			"year":			"1971",
 			"album_cover":	"http://upload.wikimedia.org/wikipedia/en/thumb/4/44/Whosnext.jpg/220px-Whosnext.jpg"
 	}
 ]	
