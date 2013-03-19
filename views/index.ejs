@@ -8,10 +8,14 @@
 		<li>
 			<div class="row-fluid span12">
 				<div align="center">					
-					<a href="/reviews/<%= albums[i].path %>"><img src="<%=albums[i].album_cover%>" height="220" width="220"></a>
-					<h4 dir="ltr"> <%= albums[i].album %> </h4>
-					<p dir="ltr"> <%= albums[i].artist %> (<%= albums[i].year%>)</p>
-					<p dir="ltr">Reviewer: <%= albums[i].reviewer%> </p>
+					<a href="/reviews/<%= albums[i].path %>">
+						<div>
+							<img src="<%=albums[i].album_cover%>" height="220" width="220">
+							<h4 dir="ltr"> <%= albums[i].album %> (<%= albums[i].year%>)</h4>
+							<p dir="ltr"> <%= albums[i].artist %> </p>
+							<a href="/writers/<%= albums[i].reviewer %>" <p dir="ltr">Reviewer: <%= albums[i].reviewer%> </p></a>
+						</div>
+					</a>
 				</div>
 			</div>
 		</li>
