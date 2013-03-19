@@ -37,9 +37,10 @@
           </button>
           <a class="brand" href="/">השרת העיוור</a>
           <div class="nav-collapse collapse">
-            <p class="navbar-text pull-right">
-             מחובר כ<a href="#" class="navbar-link">עופר מושיוף</a>
-            </p>
+            <form class="navbar-search pull-right" action="/search">
+			  <input type="text" class="search-query" name="q" placeholder="חפש אמנים, אלבומים, או כותבים">
+			  <button class="btn btn-success" type="submit">חפש</button>
+			</form>
             <ul class="nav">
               <li class="active"><a href="/">ביקורות</a></li>
               <li><a href="/writers">כותבים</a></li>

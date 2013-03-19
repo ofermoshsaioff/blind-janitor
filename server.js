@@ -38,7 +38,18 @@ app.get('/writers/:name', function (req, res) {
     res.render('index', {'albums': results, 'reviewer': req.params.name}); 
   });
 });
-		
+	
+app.get('/search?(:q)?', function (req, res) {
+  function iterator(item, callback) {
+    function is_substring(str, sub) {
+	  return (str.toLowerCase().indexOf(sub) !== -1);
+	}  
+    callback(is_substring(item.album, req.query.q) || is_substring(item.artist, req.query.q) || is_substring(item.reviewer, req.query.q));
+  }
+  async.filter(reviews, iterator, function(results) {
+    res.render('index', {'albums': results, 'reviewer': req.query.q});
+  });
+});
 		
 
 /* The 404 Route (ALWAYS Keep this as the last route) */
