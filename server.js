@@ -1,7 +1,8 @@
 var port = process.env.PORT || 8888,
     app = require('./app').init(port),
 	markdown = require('./markdown'),
-	reviews = require('./reviews.json');
+	reviews = require('./reviews.json'),
+	async = require('async');
 
 
 app.get('/', function (req, res) {
@@ -17,6 +18,29 @@ app.get('/reviews/:name', function (req, res) {
 	  res.render('review', {'body':result});
 	});
 });
+
+/* Gets the list of writers from the reviews.json file TODO -- need to handle duplicate names (maybe reduce?) */
+app.get('/writers', function (req, res) {
+	function iterator(item, callback) {
+		callback(null, item.reviewer);
+	}
+	
+	async.map(reviews, iterator, function(err, results) {
+		res.send(results);
+	});
+});
+
+/* Gets the list of reviews for this writer's name */
+app.get('/writers/:name', function (req, res) {
+	function iterator(item, callback) {	
+		callback(item.reviewer == req.params.name);
+	}
+	
+	async.filter(reviews, iterator, function(results) {
+		res.send(results);
+	});
+});
+		
 		
 
 /* The 404 Route (ALWAYS Keep this as the last route) */
