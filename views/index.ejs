@@ -1,10 +1,10 @@
 
-<div class="hero-unit" dir="rtl">
-	<h1>כל הביקורות <% if (typeof reviewer != "undefined") { %>
+<h1>כל הביקורות <% if (typeof reviewer != "undefined") { %>
 		של <%= reviewer %>
 	<% } %>
-	</h1>
-</div>
+</h1>
+<br><br>
+
 <div class="row-fluid">
 	<ul class="thumbnails">
 	<% for (var i=0; i<albums.length; i++) { %>
@@ -16,7 +16,7 @@
 							<img src="/reviews/<%= albums[i].path %>/cover.jpg"<%=albums[i].album_cover%>" height="220" width="220">
 							<h4 dir="ltr"> <%= albums[i].album %> (<%= albums[i].year%>)</h4>
 							<p dir="ltr"> <%= albums[i].artist %> </p>
-							<a href="/writers/<%= albums[i].reviewer %>" <p dir="ltr">Reviewer: <%= albums[i].reviewer%> </p></a>
+							<a href="/writers/<%= albums[i].reviewer %>" <p dir="ltr">By: <%= albums[i].reviewer%> </p></a>
 						</div>
 					</a>
 				</div>

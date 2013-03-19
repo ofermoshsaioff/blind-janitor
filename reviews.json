@@ -2,35 +2,35 @@
 	{
 			"album":		"Blind Melon",
 			"artist":		"Blind Melon",
-			"reviewer":		"Ofer Moshaioff",
+			"reviewer":		"עופר מושיוף",
 			"path":			"blind_melon",
 			"year":			"1992"
 	},
 	{
 			"album":		"Who's Next",
 			"artist":		"The Who",
-			"reviewer":		"Ofer Moshaioff",
+			"reviewer":		"עופר מושיוף",
 			"path":			"whos_next",
 			"year":			"1971"
 	},
 	{
 			"album":		"808's and Heartbreak",
 			"artist":		"Kanye West",
-			"reviewer":		"Ofer Moshaioff",
+			"reviewer":		"עופר מושיוף",
 			"path":			"808s_and_heartbreak",
 			"year":			"2008"
 	},
 	{
 			"album":		"Crosby, Stills and Nash",
 			"artist":		"Crosby, Stills and Nash",
-			"reviewer":		"Ofer Moshaioff",
+			"reviewer":		"עופר מושיוף",
 			"path":			"crosby_stills_and_nash",
 			"year":			"1969"
 	},
 	{
 			"album":		"The Stone Roses",
 			"artist":		"The Stone Roses",
-			"reviewer":		"Ofer Moshaioff",
+			"reviewer":		"עופר מושיוף",
 			"path":			"the_stone_roses",
 			"year":			"1989"
 	},
@@ -40,5 +40,54 @@
 			"reviewer":		"Dragonfly",
 			"path":			"above",
 			"year":			"1995"
+	},
+	{
+			"album":		"Philophobia",
+			"artist":		"Arab Strap",
+			"reviewer":		"pixie",
+			"path":			"philophobia",
+			"year":			"1998"
+	},
+	{
+			"album":		"Stereo * Type A",
+			"artist":		"Cibo Matto",
+			"reviewer":		"אמיר לוי",
+			"path":			"stereo_type_a",
+			"year":			"1999"
+	},
+	{
+			"album":		"Infected",
+			"artist":		"The The",
+			"reviewer":		"שוקי גלילי",
+			"path":			"infected",
+			"year":			"1986"
+	},
+	{
+			"album":		"Fruit Tree",
+			"artist":		"Nick Drake",
+			"reviewer":		"barton Fink",
+			"path":			"fruit_tree",
+			"year":			"1986"
+	},
+	{
+			"album":		"Gonzales Uber Alles",
+			"artist":		"Gonzales",
+			"reviewer":		"lester bangs",
+			"path":			"gonzales_uber_alles",
+			"year":			"2000"
+	},
+	{
+			"album":		"Crooked rain, crooked rain",
+			"artist":		"Pavement",
+			"reviewer":		"Jack Traut",
+			"path":			"crooked_rain_crooked_rain",
+			"year":			"1994"
+	},
+	{
+			"album":		"Jonathan David",
+			"artist":		"Belle & Sebastian",
+			"reviewer":		"laho",
+			"path":			"jonathan_david",
+			"year":			"2001"
 	}
 ]	
