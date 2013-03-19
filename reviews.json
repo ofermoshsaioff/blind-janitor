@@ -22,5 +22,29 @@
 			"path":			"808s_and_heartbreak",
 			"year":			"2008",
 			"album_cover":	"http://upload.wikimedia.org/wikipedia/en/thumb/f/f1/808s_%26_Heartbreak.png/220px-808s_%26_Heartbreak.png"
+	},
+	{
+			"album":		"Crosby, Stills and Nash",
+			"artist":		"Crosby, Stills and Nash",
+			"reviewer":		"Ofer Moshaioff",
+			"path":			"crosby_stills_and_nash",
+			"year":			"1969",
+			"album_cover":	"http://upload.wikimedia.org/wikipedia/en/3/39/Crosbystillsandnash.jpg"
+	},
+	{
+			"album":		"The Stone Roses",
+			"artist":		"The Stone Roses",
+			"reviewer":		"Ofer Moshaioff",
+			"path":			"the_stone_roses",
+			"year":			"1989",
+			"album_cover":	"http://upload.wikimedia.org/wikipedia/en/f/ff/Stoneroses.jpg"
+	},
+	{
+			"album":		"Above",
+			"artist":		"Mad Season",
+			"reviewer":		"Dragonfly",
+			"path":			"above",
+			"year":			"1995",
+			"album_cover":	"http://upload.wikimedia.org/wikipedia/en/7/7d/Above_%28Mad_Season_album%29.jpeg"
 	}
 ]	
