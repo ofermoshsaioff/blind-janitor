@@ -1,6 +1,9 @@
 
 <div class="hero-unit" dir="rtl">
-	<h1>כל הביקורות</h1>
+	<h1>כל הביקורות <% if (typeof reviewer != "undefined") { %>
+		של <%= reviewer %>
+	<% } %>
+	</h1>
 </div>
 <div class="row-fluid">
 	<ul class="thumbnails">
@@ -10,7 +13,7 @@
 				<div align="center">					
 					<a href="/reviews/<%= albums[i].path %>">
 						<div>
-							<img src="<%=albums[i].album_cover%>" height="220" width="220">
+							<img src="/reviews/<%= albums[i].path %>/cover.jpg"<%=albums[i].album_cover%>" height="220" width="220">
 							<h4 dir="ltr"> <%= albums[i].album %> (<%= albums[i].year%>)</h4>
 							<p dir="ltr"> <%= albums[i].artist %> </p>
 							<a href="/writers/<%= albums[i].reviewer %>" <p dir="ltr">Reviewer: <%= albums[i].reviewer%> </p></a>

@@ -35,7 +35,7 @@ app.get('/writers/:name', function (req, res) {
     callback(item.reviewer == req.params.name);
   }	
   async.filter(reviews, iterator, function(results) {
-    res.send(results);
+    res.render('index', {'albums': results, 'reviewer': req.params.name}); 
   });
 });
 		

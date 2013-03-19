@@ -4,47 +4,41 @@
 			"artist":		"Blind Melon",
 			"reviewer":		"Ofer Moshaioff",
 			"path":			"blind_melon",
-			"year":			"1992",
-			"album_cover":	"http://upload.wikimedia.org/wikipedia/en/thumb/0/05/BlindMelonBlindMelon.jpg/220px-BlindMelonBlindMelon.jpg"
+			"year":			"1992"
 	},
 	{
 			"album":		"Who's Next",
 			"artist":		"The Who",
 			"reviewer":		"Ofer Moshaioff",
 			"path":			"whos_next",
-			"year":			"1971",
-			"album_cover":	"http://upload.wikimedia.org/wikipedia/en/thumb/4/44/Whosnext.jpg/220px-Whosnext.jpg"
+			"year":			"1971"
 	},
 	{
 			"album":		"808's and Heartbreak",
 			"artist":		"Kanye West",
 			"reviewer":		"Ofer Moshaioff",
 			"path":			"808s_and_heartbreak",
-			"year":			"2008",
-			"album_cover":	"http://upload.wikimedia.org/wikipedia/en/thumb/f/f1/808s_%26_Heartbreak.png/220px-808s_%26_Heartbreak.png"
+			"year":			"2008"
 	},
 	{
 			"album":		"Crosby, Stills and Nash",
 			"artist":		"Crosby, Stills and Nash",
 			"reviewer":		"Ofer Moshaioff",
 			"path":			"crosby_stills_and_nash",
-			"year":			"1969",
-			"album_cover":	"http://upload.wikimedia.org/wikipedia/en/3/39/Crosbystillsandnash.jpg"
+			"year":			"1969"
 	},
 	{
 			"album":		"The Stone Roses",
 			"artist":		"The Stone Roses",
 			"reviewer":		"Ofer Moshaioff",
 			"path":			"the_stone_roses",
-			"year":			"1989",
-			"album_cover":	"http://upload.wikimedia.org/wikipedia/en/f/ff/Stoneroses.jpg"
+			"year":			"1989"
 	},
 	{
 			"album":		"Above",
 			"artist":		"Mad Season",
 			"reviewer":		"Dragonfly",
 			"path":			"above",
-			"year":			"1995",
-			"album_cover":	"http://upload.wikimedia.org/wikipedia/en/7/7d/Above_%28Mad_Season_album%29.jpeg"
+			"year":			"1995"
 	}
 ]	
