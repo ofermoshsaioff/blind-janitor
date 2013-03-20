@@ -25,7 +25,14 @@ app.get('/writers', function (req, res) {
     callback(null, item.reviewer);
   }	
   async.map(reviews, iterator, function(err, results) {
-    res.render('writers', {'writers': results}); 
+  
+  function filter_duplicates(arr) {
+    filtered_arr = results.filter(function(elem, pos) {
+      return results.indexOf(elem) == pos;
+  });
+  return filtered_arr;
+  }
+  res.render('writers', {'writers': filter_duplicates(results)}); 
   });
 });
 
