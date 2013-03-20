@@ -25,7 +25,7 @@ app.get('/writers', function (req, res) {
     callback(null, item.reviewer);
   }	
   async.map(reviews, iterator, function(err, results) {
-    res.send(results);
+    res.render('writers', {'writers': results}); 
   });
 });
 
