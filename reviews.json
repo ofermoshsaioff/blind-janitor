@@ -180,5 +180,12 @@
 			"reviewer":		"השרת העיוור",
 			"path":			"confield",
 			"year":			"2001"
+	},
+	{
+			"album":		"Remedy",
+			"artist":		"Basement Jaxx",
+			"reviewer":		"yaddo",
+			"path":			"remedy",
+			"year":			"1999"
 	}
 ]	
