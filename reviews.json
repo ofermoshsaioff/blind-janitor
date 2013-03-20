@@ -110,5 +110,75 @@
 			"reviewer":		"זהר שרון",
 			"path":			"new_moon_daughter",
 			"year":			"1996"
+	},
+	{
+			"album":		"Restless",
+			"artist":		"Xzibit",
+			"reviewer":		"tomas",
+			"path":			"restless",
+			"year":			"2000"
+	},
+	{
+			"album":		"Lonesome Spaceboy",
+			"artist":		"Tommy Bass",
+			"reviewer":		"Chillout",
+			"path":			"lonesome_spaceboy",
+			"year":			"2001"
+	},
+	{
+			"album":		"Late Night Blues",
+			"artist":		"Big Bud",
+			"reviewer":		"Chillout",
+			"path":			"late_night_blues",
+			"year":			"2001"
+	},
+	{
+			"album":		"The discovery of a world inside the moone",
+			"artist":		"The Apples in Stereo",
+			"reviewer":		"הדוניסטית",
+			"path":			"the_discovery_of_a_world_inside_the_moone",
+			"year":			"2000"
+	},
+	{
+			"album":		"Pioneers Who Got Scalped",
+			"artist":		"Devo",
+			"reviewer":		"zwei",
+			"path":			"pioneers_who_got_scalped",
+			"year":			"2000"
+	},
+	{
+			"album":		"Madonna",
+			"artist":		"...And You Will Know Us by the Trail of Dead",
+			"reviewer":		"laho",
+			"path":			"madonna",
+			"year":			"1999"
+	},
+	{
+			"album":		"California",
+			"artist":		"Mr. Bungle",
+			"reviewer":		"dj dub L",
+			"path":			"california",
+			"year":			"1999"
+	},
+	{
+			"album":		"Fold Your Hands Child, You Walk Like a Peasant",
+			"artist":		"Belle & Sebastian",
+			"reviewer":		"השרת העיוור",
+			"path":			"fold_your_hands_child_you_walk_like_a_peasant",
+			"year":			"2000"
+	},
+	{
+			"album":		"Song Yet to Be Sung",
+			"artist":		"Perry Farrell",
+			"reviewer":		"pixie",
+			"path":			"song_yet_to_be_sung",
+			"year":			"2001"
+	},
+	{
+			"album":		"Confield",
+			"artist":		"Autechre",
+			"reviewer":		"השרת העיוור",
+			"path":			"confield",
+			"year":			"2001"
 	}
 ]	
