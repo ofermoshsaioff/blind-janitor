@@ -38,6 +38,10 @@ app.get('/writers/:name', function (req, res) {
     res.render('index', {'albums': results, 'reviewer': req.params.name}); 
   });
 });
+
+app.get('/about', function (req, res) {
+  res.render('about');
+});
 	
 app.get('/search?(:q)?', function (req, res) {
   function iterator(item, callback) {
