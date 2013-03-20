@@ -208,5 +208,12 @@
 			"reviewer":		"pixie",
 			"path":			"hot_shots_ii",
 			"year":			"2001"
+	},
+	{
+			"album":		"Telegram",
+			"artist":		"Björk",
+			"reviewer":		"schwartz",
+			"path":			"telegram",
+			"year":			"1997"
 	}
 ]	
