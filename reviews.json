@@ -215,5 +215,47 @@
 			"reviewer":		"schwartz",
 			"path":			"telegram",
 			"year":			"1997"
+	},
+	{
+			"album":		"Oh Holy Fools",
+			"artist":		"Bright Eyes",
+			"reviewer":		"laho",
+			"path":			"oh_holy_fools",
+			"year":			"2001"
+	},
+	{
+			"album":		"Things Fall Apart",
+			"artist":		"The Roots",
+			"reviewer":		"tomas",
+			"path":			"things_fall_apart",
+			"year":			"1999"
+	},
+	{
+			"album":		"The Shiggar Fraggar Show! Vol. 1",
+			"artist":		"Invisibl Skratch Piklz",
+			"reviewer":		"tomas",
+			"path":			"the_shiggar_fraggar_show",
+			"year":			"1998"
+	},
+	{
+			"album":		"The Snow Goose",
+			"artist":		"Camel",
+			"reviewer":		"אורי ברייטמן ",
+			"path":			"the_snow_goose",
+			"year":			"1975"
+	},
+	{
+			"album":		"Lido",
+			"artist":		"Clearlake",
+			"reviewer":		"הדוניסטית",
+			"path":			"lido",
+			"year":			"2001"
+	},
+	{
+			"album":		"Internal Wrangler",
+			"artist":		"Clinic",
+			"reviewer":		"laho",
+			"path":			"internal wrangler",
+			"year":			"2000"
 	}
 ]	
