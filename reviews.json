@@ -187,5 +187,26 @@
 			"reviewer":		"yaddo",
 			"path":			"remedy",
 			"year":			"1999"
+	},
+	{
+			"album":		"Mutations",
+			"artist":		"Beck",
+			"reviewer":		"geffen",
+			"path":			"mutations",
+			"year":			"1998"
+	},
+	{
+			"album":		"If You're Feeling Sinister",
+			"artist":		"Belle & Sebastian",
+			"reviewer":		"sibyl vane",
+			"path":			"if_youre_feeling_sinister",
+			"year":			"1996"
+	},
+	{
+			"album":		"Hot Shots II",
+			"artist":		"The Beta Band",
+			"reviewer":		"pixie",
+			"path":			"hot_shots_ii",
+			"year":			"2001"
 	}
 ]	
