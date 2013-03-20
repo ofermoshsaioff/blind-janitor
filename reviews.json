@@ -89,5 +89,26 @@
 			"reviewer":		"laho",
 			"path":			"jonathan_david",
 			"year":			"2001"
+	},
+	{
+			"album":		"Pirate fuckin' radio 100",
+			"artist":		"Various Artists",
+			"reviewer":		"tomas",
+			"path":			"pirate_fuckin_radio_100",
+			"year":			"2000"
+	},
+	{
+			"album":		"Swansong for You",
+			"artist":		"The Gentle Waves",
+			"reviewer":		"yaddo",
+			"path":			"swansong_for_you",
+			"year":			"2000"
+	},
+	{
+			"album":		"New Moon Daughter",
+			"artist":		"Cassandra Wilson",
+			"reviewer":		"זהר שרון",
+			"path":			"new_moon_daughter",
+			"year":			"1996"
 	}
 ]	
