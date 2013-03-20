@@ -35,7 +35,7 @@ app.get('/writers/:name', function (req, res) {
     callback(item.reviewer == req.params.name);
   }	
   async.filter(reviews, iterator, function(results) {
-    res.render('index', {'albums': results, 'reviewer': req.params.name}); 
+    res.render('reviews', {'albums': results, 'reviewer': req.params.name}); 
   });
 });
 
@@ -51,7 +51,7 @@ app.get('/search?(:q)?', function (req, res) {
     callback(is_substring(item.album, req.query.q) || is_substring(item.artist, req.query.q) || is_substring(item.reviewer, req.query.q));
   }
   async.filter(reviews, iterator, function(results) {
-    res.render('index', {'albums': results, 'reviewer': req.query.q});
+    res.render('reviews', {'albums': results, 'reviewer': req.query.q});
   });
 });
 		
