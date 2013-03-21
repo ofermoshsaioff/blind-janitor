@@ -6,3 +6,10 @@
   reviews at hasharat.co.il
 </div>
 <% include reviews %>
+<script type="text/javascript">
+  $(window).scroll(function() {
+   if($(window).scrollTop() + $(window).height() > $(document).height() - 100) {
+       alert("near bottom!");
+   }
+  });
+</script>
