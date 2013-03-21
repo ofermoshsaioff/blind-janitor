@@ -294,5 +294,77 @@
 			"reviewer":		"laho",
 			"path":			"internal_wrangler",
 			"year":			"2000"
+	},
+	"lets_get_free":
+	{
+			"album":		"Lets Get Free",
+			"artist":		"Dead Prez",
+			"reviewer":		"tomas",
+			"path":			"lets_get_free",
+			"year":			"2000"
+	},
+	"deltron_3030":
+	{
+			"album":		"Deltron 3030",
+			"artist":		"Deltron 3030",
+			"reviewer":		"tomas",
+			"path":			"deltron_3030",
+			"year":			"2000"
+	},
+	"regeneration":
+	{
+			"album":		"Regeneration",
+			"artist":		"The Divine Comedy",
+			"reviewer":		"sibyl vane",
+			"path":			"regeneration",
+			"year":			"2001"
+	},
+	"starlite_walker":
+	{
+			"album":		"Starlite Walker",
+			"artist":		"The Silver Jews",
+			"reviewer":		"undertow",
+			"path":			"starlite_walker",
+			"year":			"1994"
+	},
+	"silence_is_sexy":
+	{
+			"album":		"Silence is Sexy",
+			"artist":		"Einstürzende Neubauten",
+			"reviewer":		"nemOi",
+			"path":			"silence_is_sexy",
+			"year":			"2000"
+	},
+	"rock_it_to_the_moon":
+	{
+			"album":		"Rock It To The Moon",
+			"artist":		"Electrelane",
+			"reviewer":		"dexterx",
+			"path":			"rock_it_to_the_moon",
+			"year":			"2001"
+	},
+	"the_unutterable":
+	{
+			"album":		"The Unutterable",
+			"artist":		"The Fall",
+			"reviewer":		"דיסה",
+			"path":			"the_unutterable",
+			"year":			"2000"
+	},
+	"recordings":
+	{
+			"album":		"Recordings",
+			"artist":		"Porcupine Tree",
+			"reviewer":		"רואי תדהר",
+			"path":			"recordings",
+			"year":			"2001"
+	},
+	"lift_your_skinny_fists_like_antennas_to_heaven":
+	{
+			"album":		"Lift Your Skinny Fists Like Antennas to Heaven",
+			"artist":		"Godspeed You! Black Emperor",
+			"reviewer":		"השרת העיוור",
+			"path":			"lift_your_skinny_fists_like_antennas_to_heaven",
+			"year":			"2000"
 	}
 }	
