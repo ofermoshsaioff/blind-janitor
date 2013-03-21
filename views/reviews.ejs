@@ -6,16 +6,16 @@
 
 <div class="row-fluid">
 	<ul class="thumbnails">
-	<% for (var i=0; i<albums.length; i++) { %>
+	<% for (var key in albums) { %>
 		<li>
 			<div class="row-fluid span12">
 				<div align="center">					
-					<a href="/reviews/<%= albums[i].path %>">
+					<a href="/reviews/<%= albums[key].path %>">
 						<div style="width:220px;height:300px;">
-							<img src="/reviews/<%= albums[i].path %>/cover.jpg"<%=albums[i].album_cover%>" height="220" width="220">
-							<h4 dir="ltr"> <%= albums[i].album %> (<%= albums[i].year%>)</h4>
-							<p dir="ltr"> <%= albums[i].artist %> </p>
-							<a href="/writers/<%= albums[i].reviewer %>" <p dir="ltr">By: <%= albums[i].reviewer%> </p></a>
+							<img src="/reviews/<%= albums[key].path %>/cover.jpg"<%=albums[key].album_cover%>" height="220" width="220">
+							<h4 dir="ltr"> <%= albums[key].album %> (<%= albums[key].year%>)</h4>
+							<p dir="ltr"> <%= albums[key].artist %> </p>
+							<a href="/writers/<%= albums[key].reviewer %>" <p dir="ltr">By: <%= albums[key].reviewer%> </p></a>
 						</div>
 					</a>
 				</div>

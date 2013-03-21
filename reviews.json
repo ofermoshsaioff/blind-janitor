@@ -1,4 +1,5 @@
-[
+{
+	"blind_melon":
 	{
 			"album":		"Blind Melon",
 			"artist":		"Blind Melon",
@@ -6,6 +7,7 @@
 			"path":			"blind_melon",
 			"year":			"1992"
 	},
+	"whos_next":
 	{
 			"album":		"Who's Next",
 			"artist":		"The Who",
@@ -13,6 +15,7 @@
 			"path":			"whos_next",
 			"year":			"1971"
 	},
+	"808s_and_heartbreak":
 	{
 			"album":		"808's and Heartbreak",
 			"artist":		"Kanye West",
@@ -20,6 +23,7 @@
 			"path":			"808s_and_heartbreak",
 			"year":			"2008"
 	},
+	"crosby_stills_and_nash":
 	{
 			"album":		"Crosby, Stills and Nash",
 			"artist":		"Crosby, Stills and Nash",
@@ -27,6 +31,7 @@
 			"path":			"crosby_stills_and_nash",
 			"year":			"1969"
 	},
+	"the_stone_roses":
 	{
 			"album":		"The Stone Roses",
 			"artist":		"The Stone Roses",
@@ -34,6 +39,7 @@
 			"path":			"the_stone_roses",
 			"year":			"1989"
 	},
+	"above":
 	{
 			"album":		"Above",
 			"artist":		"Mad Season",
@@ -41,6 +47,7 @@
 			"path":			"above",
 			"year":			"1995"
 	},
+	"philophobia":
 	{
 			"album":		"Philophobia",
 			"artist":		"Arab Strap",
@@ -48,6 +55,7 @@
 			"path":			"philophobia",
 			"year":			"1998"
 	},
+	"stereo_type_a":
 	{
 			"album":		"Stereo * Type A",
 			"artist":		"Cibo Matto",
@@ -55,6 +63,7 @@
 			"path":			"stereo_type_a",
 			"year":			"1999"
 	},
+	"infected":
 	{
 			"album":		"Infected",
 			"artist":		"The The",
@@ -62,6 +71,7 @@
 			"path":			"infected",
 			"year":			"1986"
 	},
+	"fruit_tree":
 	{
 			"album":		"Fruit Tree",
 			"artist":		"Nick Drake",
@@ -69,6 +79,7 @@
 			"path":			"fruit_tree",
 			"year":			"1986"
 	},
+	"gonzales_uber_alles":
 	{
 			"album":		"Gonzales Uber Alles",
 			"artist":		"Gonzales",
@@ -76,6 +87,7 @@
 			"path":			"gonzales_uber_alles",
 			"year":			"2000"
 	},
+	"crooked_rain_crooked_rain":
 	{
 			"album":		"Crooked rain, crooked rain",
 			"artist":		"Pavement",
@@ -83,6 +95,7 @@
 			"path":			"crooked_rain_crooked_rain",
 			"year":			"1994"
 	},
+	"jonathan_david":
 	{
 			"album":		"Jonathan David",
 			"artist":		"Belle & Sebastian",
@@ -90,6 +103,7 @@
 			"path":			"jonathan_david",
 			"year":			"2001"
 	},
+	"pirate_fuckin_radio_100":
 	{
 			"album":		"Pirate fuckin' radio 100",
 			"artist":		"Various Artists",
@@ -97,6 +111,7 @@
 			"path":			"pirate_fuckin_radio_100",
 			"year":			"2000"
 	},
+	"swansong_for_you":
 	{
 			"album":		"Swansong for You",
 			"artist":		"The Gentle Waves",
@@ -104,6 +119,7 @@
 			"path":			"swansong_for_you",
 			"year":			"2000"
 	},
+	"new_moon_daughter":
 	{
 			"album":		"New Moon Daughter",
 			"artist":		"Cassandra Wilson",
@@ -111,6 +127,7 @@
 			"path":			"new_moon_daughter",
 			"year":			"1996"
 	},
+	"restless":
 	{
 			"album":		"Restless",
 			"artist":		"Xzibit",
@@ -118,6 +135,7 @@
 			"path":			"restless",
 			"year":			"2000"
 	},
+	"lonesome_spaceboy":
 	{
 			"album":		"Lonesome Spaceboy",
 			"artist":		"Tommy Bass",
@@ -125,6 +143,7 @@
 			"path":			"lonesome_spaceboy",
 			"year":			"2001"
 	},
+	"late_night_blues":
 	{
 			"album":		"Late Night Blues",
 			"artist":		"Big Bud",
@@ -132,6 +151,7 @@
 			"path":			"late_night_blues",
 			"year":			"2001"
 	},
+	"the_discovery_of_a_world_inside_the_moone":
 	{
 			"album":		"The discovery of a world inside the moone",
 			"artist":		"The Apples in Stereo",
@@ -139,6 +159,7 @@
 			"path":			"the_discovery_of_a_world_inside_the_moone",
 			"year":			"2000"
 	},
+	"pioneers_who_got_scalped":
 	{
 			"album":		"Pioneers Who Got Scalped",
 			"artist":		"Devo",
@@ -146,6 +167,7 @@
 			"path":			"pioneers_who_got_scalped",
 			"year":			"2000"
 	},
+	"madonna":
 	{
 			"album":		"Madonna",
 			"artist":		"...And You Will Know Us by the Trail of Dead",
@@ -153,6 +175,7 @@
 			"path":			"madonna",
 			"year":			"1999"
 	},
+	"california":
 	{
 			"album":		"California",
 			"artist":		"Mr. Bungle",
@@ -160,6 +183,7 @@
 			"path":			"california",
 			"year":			"1999"
 	},
+	"fold_your_hands_child_you_walk_like_a_peasant":
 	{
 			"album":		"Fold Your Hands Child, You Walk Like a Peasant",
 			"artist":		"Belle & Sebastian",
@@ -167,6 +191,7 @@
 			"path":			"fold_your_hands_child_you_walk_like_a_peasant",
 			"year":			"2000"
 	},
+	"song_yet_to_be_sung":
 	{
 			"album":		"Song Yet to Be Sung",
 			"artist":		"Perry Farrell",
@@ -174,6 +199,7 @@
 			"path":			"song_yet_to_be_sung",
 			"year":			"2001"
 	},
+	"confield":
 	{
 			"album":		"Confield",
 			"artist":		"Autechre",
@@ -181,6 +207,7 @@
 			"path":			"confield",
 			"year":			"2001"
 	},
+	"remedy":
 	{
 			"album":		"Remedy",
 			"artist":		"Basement Jaxx",
@@ -188,6 +215,7 @@
 			"path":			"remedy",
 			"year":			"1999"
 	},
+	"mutations":
 	{
 			"album":		"Mutations",
 			"artist":		"Beck",
@@ -195,6 +223,7 @@
 			"path":			"mutations",
 			"year":			"1998"
 	},
+	"if_youre_feeling_sinister":
 	{
 			"album":		"If You're Feeling Sinister",
 			"artist":		"Belle & Sebastian",
@@ -202,6 +231,7 @@
 			"path":			"if_youre_feeling_sinister",
 			"year":			"1996"
 	},
+	"hot_shots_ii":
 	{
 			"album":		"Hot Shots II",
 			"artist":		"The Beta Band",
@@ -209,6 +239,7 @@
 			"path":			"hot_shots_ii",
 			"year":			"2001"
 	},
+	"telegram":
 	{
 			"album":		"Telegram",
 			"artist":		"Björk",
@@ -216,6 +247,7 @@
 			"path":			"telegram",
 			"year":			"1997"
 	},
+	"oh_holy_fools":
 	{
 			"album":		"Oh Holy Fools",
 			"artist":		"Bright Eyes",
@@ -223,6 +255,7 @@
 			"path":			"oh_holy_fools",
 			"year":			"2001"
 	},
+	"things_fall_apart":
 	{
 			"album":		"Things Fall Apart",
 			"artist":		"The Roots",
@@ -230,6 +263,7 @@
 			"path":			"things_fall_apart",
 			"year":			"1999"
 	},
+	"the_shiggar_fraggar_show":
 	{
 			"album":		"The Shiggar Fraggar Show! Vol. 1",
 			"artist":		"Invisibl Skratch Piklz",
@@ -237,6 +271,7 @@
 			"path":			"the_shiggar_fraggar_show",
 			"year":			"1998"
 	},
+	"the_snow_goose":
 	{
 			"album":		"The Snow Goose",
 			"artist":		"Camel",
@@ -244,6 +279,7 @@
 			"path":			"the_snow_goose",
 			"year":			"1975"
 	},
+	"lido":
 	{
 			"album":		"Lido",
 			"artist":		"Clearlake",
@@ -251,11 +287,12 @@
 			"path":			"lido",
 			"year":			"2001"
 	},
+	"internal_wrangler":
 	{
 			"album":		"Internal Wrangler",
 			"artist":		"Clinic",
 			"reviewer":		"laho",
-			"path":			"internal wrangler",
+			"path":			"internal_wrangler",
 			"year":			"2000"
 	}
-]	
+}	

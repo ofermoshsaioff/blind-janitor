@@ -5,17 +5,19 @@ var port = process.env.PORT || 8888,
 	async = require('async');
 
 
-app.get('/', function (req, res) {
+var reviews_arr = [];
+for (key in reviews) {
+  reviews_arr.push(reviews[key]);
+}
+  
+app.get('/', function (req, res) {  
   res.render('index', {'albums': reviews});  
 });
 
 app.get('/reviews/:name', function (req, res) {
   var path = 'reviews/' + req.params.name+ '/index.md';	
   markdown(path, function (err, result) {
-    if (err) {		
-	  res.send(err);
-	}
-	res.render('review', {'body':result});
+    res.render('review', {'body':result, 'details':reviews[req.params.name]});
   });
 });
 
@@ -24,7 +26,7 @@ app.get('/writers', function (req, res) {
   function iterator(item, callback) {
     callback(null, item.reviewer);
   }	
-  async.map(reviews, iterator, function(err, results) {
+  async.map(reviews_arr, iterator, function(err, results) {
   
   function filter_duplicates(arr) {
     filtered_arr = results.filter(function(elem, pos) {
@@ -41,7 +43,7 @@ app.get('/writers/:name', function (req, res) {
   function iterator(item, callback) {	
     callback(item.reviewer == req.params.name);
   }	
-  async.filter(reviews, iterator, function(results) {
+  async.filter(reviews_arr, iterator, function(results) {
     res.render('reviews', {'albums': results, 'reviewer': req.params.name}); 
   });
 });
@@ -57,7 +59,7 @@ app.get('/search?(:q)?', function (req, res) {
 	}  
     callback(is_substring(item.album, req.query.q) || is_substring(item.artist, req.query.q) || is_substring(item.reviewer, req.query.q));
   }
-  async.filter(reviews, iterator, function(results) {
+  async.filter(reviews_arr, iterator, function(results) {
     res.render('reviews', {'albums': results, 'reviewer': req.query.q});
   });
 });

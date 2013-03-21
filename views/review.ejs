@@ -1,3 +1,17 @@
+<div class="hero-unit">
+  <div class="media">
+    <a class="pull-right">
+      <img class="media-object" src="/reviews/<%= details.path %>/cover.jpg" width="40%" height="40%">
+    </a>
+	<div class="media-body">
+      <h2 class="media-heading"><%= details.artist %> - <%= details.album %></h2>
+      <div class="media">
+	    <h4><%= details.year %></h4>
+	    מאת <a href="/writers/<%= details.reviewer %>"<p><%= details.reviewer %></p></a>
+      </div>
+    </div>
+  </div>
+</div>
 <%- body %>
 <div id="disqus_thread"></div>
 <script type="text/javascript">
