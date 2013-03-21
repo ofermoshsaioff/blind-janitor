@@ -11,7 +11,7 @@ for (key in reviews) {
 }
   
 app.get('/', function (req, res) {  
-  res.render('index', {'albums': reviews});  
+  res.render('index', {'albums': reviews, 'controller':'home'});  
 });
 
 app.get('/reviews/:name', function (req, res) {
@@ -34,7 +34,7 @@ app.get('/writers', function (req, res) {
   });
   return filtered_arr;
   }
-  res.render('writers', {'writers': filter_duplicates(results)}); 
+  res.render('writers', {'writers': filter_duplicates(results), 'controller':'writers'}); 
   });
 });
 
@@ -49,7 +49,7 @@ app.get('/writers/:name', function (req, res) {
 });
 
 app.get('/about', function (req, res) {
-  res.render('about');
+  res.render('about', {'controller':'about'});
 });
 	
 app.get('/search?(:q)?', function (req, res) {

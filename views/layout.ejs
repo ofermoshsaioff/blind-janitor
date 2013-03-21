@@ -42,9 +42,15 @@
 			  <button class="btn btn-success" type="submit">חפש</button>
 			</form>
             <ul class="nav">
-              <li><a href="/">ביקורות</a></li>
-              <li><a href="/writers">כותבים</a></li>
-              <li><a href="/about">מי אנחנו</a></li>
+              <li<%if (controller=="home") {%>
+			    class="active"<%}%>>
+			  <a href="/">ביקורות</a></li>
+              <li<%if (controller=="writers") {%>
+			    class="active"<%}%>>
+				<a href="/writers">כותבים</a></li>
+              <li<%if (controller=="about") {%>
+			    class="active"<%}%>>
+				<a href="/about">מי אנחנו</a></li>
             </ul>			
           </div><!--/.nav-collapse -->		  
         </div>
