@@ -478,5 +478,29 @@
 			"reviewer":		"ל כהן",
 			"path":			"bedtime_stories",
 			"year":			"1994"
+	},
+	"e_t_doolin":
+	{
+			"album":		"E.T. Doolin",
+			"artist":		"Bedtime Stories",
+			"reviewer":		"Odysseus",
+			"path":			"e_t_doolin",
+			"year":			"2003"
+	},
+	"green":
+	{
+			"album":		"Green",
+			"artist":		"R.E.M",
+			"reviewer":		"אנגלופיל",
+			"path":			"green",
+			"year":			"1988"
+	},
+	"doomsdayers_holiday":
+	{
+			"album":		"Doomsdayer's Holiday",
+			"artist":		"Grails",
+			"reviewer":		"אופק",
+			"path":			"doomsdayers_holiday",
+			"year":			"2008"
 	}
 }	
