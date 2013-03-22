@@ -366,5 +366,101 @@
 			"reviewer":		"השרת העיוור",
 			"path":			"lift_your_skinny_fists_like_antennas_to_heaven",
 			"year":			"2000"
+	},
+	"le_planete_sauvage":
+	{
+			"album":		"Le Planete Sauvage",
+			"artist":		"Alain Goraguer",
+			"reviewer":		"lester bengs",
+			"path":			"le_planete_sauvage",
+			"year":			"1973"
+	},
+	"gorillaz":
+	{
+			"album":		"Gorillaz",
+			"artist":		"Gorillaz",
+			"reviewer":		"הדוניסטית",
+			"path":			"gorillaz",
+			"year":			"2001"
+	},
+	"what_now":
+	{
+			"album":		"What, Now?",
+			"artist":		"Peter Hammill",
+			"reviewer":		"memphis",
+			"path":			"what_now",
+			"year":			"2001"
+	},
+	"breaking_gods_heart":
+	{
+			"album":		"Breaking God's Heart",
+			"artist":		"Hefner",
+			"reviewer":		"laho",
+			"path":			"breaking_gods_heart",
+			"year":			"1998"
+	},
+	"make_yourself":
+	{
+			"album":		"Make Yourself",
+			"artist":		"Incubus",
+			"reviewer":		"שרול המסטול",
+			"path":			"make_yourself",
+			"year":			"1999"
+	},
+	"ben_folds_five":
+	{
+			"album":		"Ben Folds Five",
+			"artist":		"Ben Folds Five",
+			"reviewer":		"shesekman",
+			"path":			"ben_folds_five",
+			"year":			"1995"
+	},
+	"unknown_pleasures":
+	{
+			"album":		"Unknown Pleasures",
+			"artist":		"Joy Division",
+			"reviewer":		"דיסה",
+			"path":			"unknown_pleasures",
+			"year":			"1979"
+	},
+	"la_biographie_de_luka_philipsen":
+	{
+			"album":		"La Biographie de Luka Philipsen",
+			"artist":		"Keren Ann",
+			"reviewer":		"waffer",
+			"path":			"la_biographie_de_luka_philipsen",
+			"year":			"2000"
+	},
+	"marvin_the_album":
+	{
+			"album":		"Marvin The Album",
+			"artist":		"Frente",
+			"reviewer":		"tomas",
+			"path":			"marvin_the_album",
+			"year":			"1994"
+	},
+	"604":
+	{
+			"album":		"604",
+			"artist":		"Ladytron",
+			"reviewer":		"dexterx",
+			"path":			"604",
+			"year":			"2001"
+	},
+	"rhythm_&_stealth":
+	{
+			"album":		"Rhythm And Stealth",
+			"artist":		"Leftfield",
+			"reviewer":		"zooly",
+			"path":			"rhythm_&_stealth",
+			"year":			"1999"
+	},
+	"the_lovers":
+	{
+			"album":		"The Lovers",
+			"artist":		"The Legendary Pink Dots",
+			"reviewer":		"דיסה",
+			"path":			"the_lovers",
+			"year":			"1985"
 	}
 }	
