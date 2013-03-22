@@ -462,5 +462,21 @@
 			"reviewer":		"דיסה",
 			"path":			"the_lovers",
 			"year":			"1985"
+	},
+	"black_monk_time":
+	{
+			"album":		"The Monks",
+			"artist":		"Black Monk Time",
+			"reviewer":		"diamond dog",
+			"path":			"black_monk_time",
+			"year":			"1966"
+	},
+	"bedtime_stories":
+	{
+			"album":		"Madonna",
+			"artist":		"Bedtime Stories",
+			"reviewer":		"ל כהן",
+			"path":			"bedtime_stories",
+			"year":			"1994"
 	}
 }	
