@@ -502,5 +502,29 @@
 			"reviewer":		"אופק",
 			"path":			"doomsdayers_holiday",
 			"year":			"2008"
+	},
+	"no_virginia":
+	{
+			"album":		"No Virginia",
+			"artist":		"The Dresden Dolls",
+			"reviewer":		"שעממת",
+			"path":			"no_virginia",
+			"year":			"2008"
+	},
+	"roman_candle":
+	{
+			"album":		"Roman Candle",
+			"artist":		"Elliott Smith",
+			"reviewer":		"אלעד (ברנט) לוי",
+			"path":			"roman_candle",
+			"year":			"1994"
+	},
+	"oracular_spectacular":
+	{
+			"album":		"Oracular Spectacular",
+			"artist":		"MGMT",
+			"reviewer":		"מאריה אוצ'ר",
+			"path":			"oracular_spectacular",
+			"year":			"2007"
 	}
 }	
