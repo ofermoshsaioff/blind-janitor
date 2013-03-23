@@ -10,8 +10,14 @@ for (key in reviews) {
   reviews_arr.push(reviews[key]);
 }
   
-app.get('/', function (req, res) {  
-  res.render('index', {'albums': reviews, 'controller':'home'});  
+app.get('/', function (req, res) {
+  function iterator(item, callback) {
+    callback(null, item.review_date);
+  }
+  
+  async.sortBy(reviews_arr, iterator, function(err, results) {
+    res.render('index', {'albums': results.slice(0,20), 'controller':'home'});
+  });
 });
 
 app.get('/reviews/:name', function (req, res) {

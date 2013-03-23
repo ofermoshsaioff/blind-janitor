@@ -5,6 +5,7 @@
 			"artist":		"Blind Melon",
 			"reviewer":		"עופר מושיוף",
 			"path":			"blind_melon",
+			"review_date":	"2011-04-28",
 			"year":			"1992"
 	},
 	"whos_next":
@@ -13,6 +14,7 @@
 			"artist":		"The Who",
 			"reviewer":		"עופר מושיוף",
 			"path":			"whos_next",
+			"review_date":	"2010-03-21",
 			"year":			"1971"
 	},
 	"808s_and_heartbreak":
@@ -21,6 +23,7 @@
 			"artist":		"Kanye West",
 			"reviewer":		"עופר מושיוף",
 			"path":			"808s_and_heartbreak",
+			"review_date":	"2009-02-12",
 			"year":			"2008"
 	},
 	"crosby_stills_and_nash":
@@ -29,6 +32,7 @@
 			"artist":		"Crosby, Stills and Nash",
 			"reviewer":		"עופר מושיוף",
 			"path":			"crosby_stills_and_nash",
+			"review_date":	"2008-11-09",
 			"year":			"1969"
 	},
 	"the_stone_roses":
@@ -37,6 +41,7 @@
 			"artist":		"The Stone Roses",
 			"reviewer":		"עופר מושיוף",
 			"path":			"the_stone_roses",
+			"review_date":	"2008-12-20",
 			"year":			"1989"
 	},
 	"above":
@@ -45,6 +50,7 @@
 			"artist":		"Mad Season",
 			"reviewer":		"Dragonfly",
 			"path":			"above",
+			"review_date":	"2002-11-18",
 			"year":			"1995"
 	},
 	"philophobia":
@@ -53,6 +59,7 @@
 			"artist":		"Arab Strap",
 			"reviewer":		"pixie",
 			"path":			"philophobia",
+			"review_date":	"2001-07-25",
 			"year":			"1998"
 	},
 	"stereo_type_a":
@@ -61,6 +68,7 @@
 			"artist":		"Cibo Matto",
 			"reviewer":		"אמיר לוי",
 			"path":			"stereo_type_a",
+			"review_date":	"2001-07-25",
 			"year":			"1999"
 	},
 	"infected":
@@ -69,6 +77,7 @@
 			"artist":		"The The",
 			"reviewer":		"שוקי גלילי",
 			"path":			"infected",
+			"review_date":	"2001-07-25",
 			"year":			"1986"
 	},
 	"fruit_tree":
@@ -77,6 +86,7 @@
 			"artist":		"Nick Drake",
 			"reviewer":		"barton Fink",
 			"path":			"fruit_tree",
+			"review_date":	"2001-07-29",
 			"year":			"1986"
 	},
 	"gonzales_uber_alles":
@@ -85,6 +95,7 @@
 			"artist":		"Gonzales",
 			"reviewer":		"lester bengs",
 			"path":			"gonzales_uber_alles",
+			"review_date":	"2001-07-29",
 			"year":			"2000"
 	},
 	"crooked_rain_crooked_rain":
@@ -93,6 +104,7 @@
 			"artist":		"Pavement",
 			"reviewer":		"Jack Traut",
 			"path":			"crooked_rain_crooked_rain",
+			"review_date":	"2001-07-29",
 			"year":			"1994"
 	},
 	"jonathan_david":
@@ -101,6 +113,7 @@
 			"artist":		"Belle & Sebastian",
 			"reviewer":		"laho",
 			"path":			"jonathan_david",
+			"review_date":	"2001-07-31",
 			"year":			"2001"
 	},
 	"pirate_fuckin_radio_100":
@@ -109,6 +122,7 @@
 			"artist":		"Various Artists",
 			"reviewer":		"tomas",
 			"path":			"pirate_fuckin_radio_100",
+			"review_date":	"2001-08-01",
 			"year":			"2000"
 	},
 	"swansong_for_you":
@@ -117,6 +131,7 @@
 			"artist":		"The Gentle Waves",
 			"reviewer":		"yaddo",
 			"path":			"swansong_for_you",
+			"review_date":	"2001-08-01",
 			"year":			"2000"
 	},
 	"new_moon_daughter":
@@ -125,6 +140,7 @@
 			"artist":		"Cassandra Wilson",
 			"reviewer":		"זהר שרון",
 			"path":			"new_moon_daughter",
+			"review_date":	"2001-08-01",
 			"year":			"1996"
 	},
 	"restless":
@@ -133,6 +149,7 @@
 			"artist":		"Xzibit",
 			"reviewer":		"tomas",
 			"path":			"restless",
+			"review_date":	"2001-08-01",
 			"year":			"2000"
 	},
 	"lonesome_spaceboy":
@@ -141,6 +158,7 @@
 			"artist":		"Tommy Bass",
 			"reviewer":		"Chillout",
 			"path":			"lonesome_spaceboy",
+			"review_date":	"2001-08-02",
 			"year":			"2001"
 	},
 	"late_night_blues":
@@ -149,6 +167,7 @@
 			"artist":		"Big Bud",
 			"reviewer":		"Chillout",
 			"path":			"late_night_blues",
+			"review_date":	"2001-08-02",
 			"year":			"2001"
 	},
 	"the_discovery_of_a_world_inside_the_moone":
@@ -157,6 +176,7 @@
 			"artist":		"The Apples in Stereo",
 			"reviewer":		"הדוניסטית",
 			"path":			"the_discovery_of_a_world_inside_the_moone",
+			"review_date":	"2001-08-02",
 			"year":			"2000"
 	},
 	"pioneers_who_got_scalped":
@@ -165,6 +185,7 @@
 			"artist":		"Devo",
 			"reviewer":		"zwei",
 			"path":			"pioneers_who_got_scalped",
+			"review_date":	"2001-08-03",
 			"year":			"2000"
 	},
 	"madonna":
@@ -173,6 +194,7 @@
 			"artist":		"...And You Will Know Us by the Trail of Dead",
 			"reviewer":		"laho",
 			"path":			"madonna",
+			"review_date":	"2001-08-03",
 			"year":			"1999"
 	},
 	"california":
@@ -189,6 +211,7 @@
 			"artist":		"Belle & Sebastian",
 			"reviewer":		"השרת העיוור",
 			"path":			"fold_your_hands_child_you_walk_like_a_peasant",
+			"review_date":	"2001-08-05",
 			"year":			"2000"
 	},
 	"song_yet_to_be_sung":
@@ -197,6 +220,7 @@
 			"artist":		"Perry Farrell",
 			"reviewer":		"pixie",
 			"path":			"song_yet_to_be_sung",
+			"review_date":	"2001-08-05",
 			"year":			"2001"
 	},
 	"confield":
@@ -205,6 +229,7 @@
 			"artist":		"Autechre",
 			"reviewer":		"השרת העיוור",
 			"path":			"confield",
+			"review_date":	"2001-08-05",
 			"year":			"2001"
 	},
 	"remedy":
@@ -213,6 +238,7 @@
 			"artist":		"Basement Jaxx",
 			"reviewer":		"yaddo",
 			"path":			"remedy",
+			"review_date":	"2001-08-05",
 			"year":			"1999"
 	},
 	"mutations":
@@ -221,6 +247,7 @@
 			"artist":		"Beck",
 			"reviewer":		"geffen",
 			"path":			"mutations",
+			"review_date":	"2001-08-05",
 			"year":			"1998"
 	},
 	"if_youre_feeling_sinister":
@@ -229,6 +256,7 @@
 			"artist":		"Belle & Sebastian",
 			"reviewer":		"sibyl vane",
 			"path":			"if_youre_feeling_sinister",
+			"review_date":	"2001-08-05",
 			"year":			"1996"
 	},
 	"hot_shots_ii":
@@ -237,6 +265,7 @@
 			"artist":		"The Beta Band",
 			"reviewer":		"pixie",
 			"path":			"hot_shots_ii",
+			"review_date":	"2001-08-05",
 			"year":			"2001"
 	},
 	"telegram":
@@ -245,6 +274,7 @@
 			"artist":		"Björk",
 			"reviewer":		"schwartz",
 			"path":			"telegram",
+			"review_date":	"2001-08-05",
 			"year":			"1997"
 	},
 	"oh_holy_fools":
@@ -253,6 +283,7 @@
 			"artist":		"Bright Eyes",
 			"reviewer":		"laho",
 			"path":			"oh_holy_fools",
+			"review_date":	"2001-08-05",
 			"year":			"2001"
 	},
 	"things_fall_apart":
@@ -261,6 +292,7 @@
 			"artist":		"The Roots",
 			"reviewer":		"tomas",
 			"path":			"things_fall_apart",
+			"review_date":	"2002-02-23",
 			"year":			"1999"
 	},
 	"the_shiggar_fraggar_show":
@@ -269,6 +301,7 @@
 			"artist":		"Invisibl Skratch Piklz",
 			"reviewer":		"tomas",
 			"path":			"the_shiggar_fraggar_show",
+			"review_date":	"2001-08-06",
 			"year":			"1998"
 	},
 	"the_snow_goose":
@@ -277,6 +310,7 @@
 			"artist":		"Camel",
 			"reviewer":		"אורי ברייטמן",
 			"path":			"the_snow_goose",
+			"review_date":	"2001-08-06",
 			"year":			"1975"
 	},
 	"lido":
@@ -285,6 +319,7 @@
 			"artist":		"Clearlake",
 			"reviewer":		"הדוניסטית",
 			"path":			"lido",
+			"review_date":	"2001-08-06",
 			"year":			"2001"
 	},
 	"internal_wrangler":
@@ -293,6 +328,7 @@
 			"artist":		"Clinic",
 			"reviewer":		"laho",
 			"path":			"internal_wrangler",
+			"review_date":	"2001-08-06",
 			"year":			"2000"
 	},
 	"lets_get_free":
@@ -301,6 +337,7 @@
 			"artist":		"Dead Prez",
 			"reviewer":		"tomas",
 			"path":			"lets_get_free",
+			"review_date":	"2001-08-06",
 			"year":			"2000"
 	},
 	"deltron_3030":
@@ -309,6 +346,7 @@
 			"artist":		"Deltron 3030",
 			"reviewer":		"tomas",
 			"path":			"deltron_3030",
+			"review_date":	"2001-08-06",
 			"year":			"2000"
 	},
 	"regeneration":
@@ -317,6 +355,7 @@
 			"artist":		"The Divine Comedy",
 			"reviewer":		"sibyl vane",
 			"path":			"regeneration",
+			"review_date":	"2001-08-06",
 			"year":			"2001"
 	},
 	"starlite_walker":
@@ -325,6 +364,7 @@
 			"artist":		"The Silver Jews",
 			"reviewer":		"undertow",
 			"path":			"starlite_walker",
+			"review_date":	"2001-08-07",
 			"year":			"1994"
 	},
 	"silence_is_sexy":
@@ -333,6 +373,7 @@
 			"artist":		"Einstürzende Neubauten",
 			"reviewer":		"nemOi",
 			"path":			"silence_is_sexy",
+			"review_date":	"2001-08-07",
 			"year":			"2000"
 	},
 	"rock_it_to_the_moon":
@@ -341,6 +382,7 @@
 			"artist":		"Electrelane",
 			"reviewer":		"dexterx",
 			"path":			"rock_it_to_the_moon",
+			"review_date":	"2001-08-07",
 			"year":			"2001"
 	},
 	"the_unutterable":
@@ -349,6 +391,7 @@
 			"artist":		"The Fall",
 			"reviewer":		"דיסה",
 			"path":			"the_unutterable",
+			"review_date":	"2001-08-07",
 			"year":			"2000"
 	},
 	"recordings":
@@ -357,6 +400,7 @@
 			"artist":		"Porcupine Tree",
 			"reviewer":		"רואי תדהר",
 			"path":			"recordings",
+			"review_date":	"2001-08-07",
 			"year":			"2001"
 	},
 	"lift_your_skinny_fists_like_antennas_to_heaven":
@@ -365,6 +409,7 @@
 			"artist":		"Godspeed You! Black Emperor",
 			"reviewer":		"השרת העיוור",
 			"path":			"lift_your_skinny_fists_like_antennas_to_heaven",
+			"review_date":	"2001-08-08",
 			"year":			"2000"
 	},
 	"le_planete_sauvage":
@@ -373,6 +418,7 @@
 			"artist":		"Alain Goraguer",
 			"reviewer":		"lester bengs",
 			"path":			"le_planete_sauvage",
+			"review_date":	"2001-08-08",
 			"year":			"1973"
 	},
 	"gorillaz":
@@ -381,6 +427,7 @@
 			"artist":		"Gorillaz",
 			"reviewer":		"הדוניסטית",
 			"path":			"gorillaz",
+			"review_date":	"2001-08-08",
 			"year":			"2001"
 	},
 	"what_now":
@@ -389,6 +436,7 @@
 			"artist":		"Peter Hammill",
 			"reviewer":		"memphis",
 			"path":			"what_now",
+			"review_date":	"2001-08-08",
 			"year":			"2001"
 	},
 	"breaking_gods_heart":
@@ -397,6 +445,7 @@
 			"artist":		"Hefner",
 			"reviewer":		"laho",
 			"path":			"breaking_gods_heart",
+			"review_date":	"2001-08-08",
 			"year":			"1998"
 	},
 	"make_yourself":
@@ -405,6 +454,7 @@
 			"artist":		"Incubus",
 			"reviewer":		"שרול המסטול",
 			"path":			"make_yourself",
+			"review_date":	"2001-08-08",
 			"year":			"1999"
 	},
 	"ben_folds_five":
@@ -413,6 +463,7 @@
 			"artist":		"Ben Folds Five",
 			"reviewer":		"shesekman",
 			"path":			"ben_folds_five",
+			"review_date":	"2001-08-09",
 			"year":			"1995"
 	},
 	"unknown_pleasures":
@@ -421,6 +472,7 @@
 			"artist":		"Joy Division",
 			"reviewer":		"דיסה",
 			"path":			"unknown_pleasures",
+			"review_date":	"2001-08-09",
 			"year":			"1979"
 	},
 	"la_biographie_de_luka_philipsen":
@@ -429,6 +481,7 @@
 			"artist":		"Keren Ann",
 			"reviewer":		"waffer",
 			"path":			"la_biographie_de_luka_philipsen",
+			"review_date":	"2001-08-09",
 			"year":			"2000"
 	},
 	"marvin_the_album":
@@ -437,6 +490,7 @@
 			"artist":		"Frente",
 			"reviewer":		"tomas",
 			"path":			"marvin_the_album",
+			"review_date":	"2001-08-10",
 			"year":			"1994"
 	},
 	"604":
@@ -445,6 +499,7 @@
 			"artist":		"Ladytron",
 			"reviewer":		"dexterx",
 			"path":			"604",
+			"review_date":	"2001-08-10",
 			"year":			"2001"
 	},
 	"rhythm_&_stealth":
@@ -453,6 +508,7 @@
 			"artist":		"Leftfield",
 			"reviewer":		"zooly",
 			"path":			"rhythm_&_stealth",
+			"review_date":	"2001-08-10",
 			"year":			"1999"
 	},
 	"the_lovers":
@@ -461,6 +517,7 @@
 			"artist":		"The Legendary Pink Dots",
 			"reviewer":		"דיסה",
 			"path":			"the_lovers",
+			"review_date":	"2001-08-10",
 			"year":			"1985"
 	},
 	"black_monk_time":
@@ -469,6 +526,7 @@
 			"artist":		"Black Monk Time",
 			"reviewer":		"diamond dog",
 			"path":			"black_monk_time",
+			"review_date":	"2008-12-04",
 			"year":			"1966"
 	},
 	"bedtime_stories":
@@ -477,6 +535,7 @@
 			"artist":		"Bedtime Stories",
 			"reviewer":		"ל כהן",
 			"path":			"bedtime_stories",
+			"review_date":	"2008-12-10",
 			"year":			"1994"
 	},
 	"e_t_doolin":
@@ -485,6 +544,7 @@
 			"artist":		"Bedtime Stories",
 			"reviewer":		"Odysseus",
 			"path":			"e_t_doolin",
+			"review_date":	"2008-12-10",
 			"year":			"2003"
 	},
 	"green":
@@ -493,6 +553,7 @@
 			"artist":		"R.E.M",
 			"reviewer":		"אנגלופיל",
 			"path":			"green",
+			"review_date":	"2008-12-24",
 			"year":			"1988"
 	},
 	"doomsdayers_holiday":
@@ -501,6 +562,7 @@
 			"artist":		"Grails",
 			"reviewer":		"אופק",
 			"path":			"doomsdayers_holiday",
+			"review_date":	"2008-12-25",
 			"year":			"2008"
 	},
 	"no_virginia":
@@ -509,6 +571,7 @@
 			"artist":		"The Dresden Dolls",
 			"reviewer":		"שעממת",
 			"path":			"no_virginia",
+			"review_date":	"2008-12-27",
 			"year":			"2008"
 	},
 	"roman_candle":
@@ -517,6 +580,7 @@
 			"artist":		"Elliott Smith",
 			"reviewer":		"אלעד (ברנט) לוי",
 			"path":			"roman_candle",
+			"review_date":	"2008-12-31",
 			"year":			"1994"
 	},
 	"oracular_spectacular":
@@ -525,6 +589,7 @@
 			"artist":		"MGMT",
 			"reviewer":		"מאריה אוצ'ר",
 			"path":			"oracular_spectacular",
+			"review_date":	"2009-02-04",
 			"year":			"2007"
 	}
 }	
