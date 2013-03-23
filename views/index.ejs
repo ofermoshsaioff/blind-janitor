@@ -8,10 +8,19 @@
   ונדאג שהיא תפורסם בהקדם. תודה!
 </div>
 <% include reviews %>
-<script type="text/javascript">
+<script src="/socket.io/socket.io.js"></script>
+<script>
+  var socket = io.connect(window.location.hostname, {'sync disconnect on unload':true});
   $(window).scroll(function() {
    if($(window).scrollTop() + $(window).height() > $(document).height() - 100) {
-       alert("near bottom!");
+       alert(<%= albums.length %>);
+       socket.emit('fetch', {data: <%= albums.length %> });
    }
+  });   
+  socket.on('connect', function() {
+    console.log('client connected');
   });
+  socket.on('more', function (data) {
+    alert(data);
+  });		  	
 </script>

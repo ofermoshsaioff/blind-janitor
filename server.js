@@ -2,22 +2,30 @@ var port = process.env.PORT || 8888,
     app = require('./app').init(port),
 	markdown = require('./markdown'),
 	reviews = require('./reviews.json'),
-	async = require('async');
-
-
+	async = require('async'),
+	io = require('socket.io').listen(app);
+	
+io.configure(function () {
+    io.set('log level', 1)
+    io.set("transports", ["xhr-polling"]);
+    io.set("polling duration", 10);
+});
+	
 var reviews_arr = [];
 for (key in reviews) {
   reviews_arr.push(reviews[key]);
 }
+
+function sort_by_date_iterator(item, callback) {
+  callback(null, item.review_date);
+};
+
+async.sortBy(reviews_arr, sort_by_date_iterator, function(err, results) {
+  reviews_arr = results;
+});
   
-app.get('/', function (req, res) {
-  function iterator(item, callback) {
-    callback(null, item.review_date);
-  }
-  
-  async.sortBy(reviews_arr, iterator, function(err, results) {
-    res.render('index', {'albums': results.slice(0,20), 'controller':'home'});
-  });
+app.get('/', function (req, res) {  
+    res.render('index', {'albums': reviews_arr.slice(0,20), 'controller':'home'}); 
 });
 
 app.get('/reviews/:name', function (req, res) {
@@ -78,3 +86,14 @@ app.get('/*', function (req, res) {
     layout: false
   });
 });
+
+// socket.io connection
+
+io.sockets.on('connection', function (socket) {
+  console.log('connection recieved');
+  socket.on('fetch', function(data) {
+    console.log('fetch recieved with: ' + JSON.stringify(data));
+    io.sockets.emit('more', reviews_arr.slice(data,data+20));
+	});
+});    
+

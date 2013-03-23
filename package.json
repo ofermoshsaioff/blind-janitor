@@ -7,7 +7,8 @@
 	"ejs": ">=0.0.0",
 	"express-partials": ">=0.0.6",
 	"marked":"x.x.x",	
-	"async": "0.2.6"
+	"async": "0.2.6",
+	"socket.io": "0.9.x"
   },
   "engines": {
     "node": "0.8.11",
