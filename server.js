@@ -2,13 +2,11 @@ var port = process.env.PORT || 8888,
     app = require('./app').init(port),
 	markdown = require('./markdown'),
 	reviews = require('./reviews.json'),
+	reviews_arr = require('./reviews_arr'),
 	async = require('async'),
 	io = require('./app').io;
 	
-var reviews_arr = [];
-for (key in reviews) {
-  reviews_arr.push(reviews[key]);
-}
+
 
 function sort_by_date_iterator(item, callback) {
   callback(null, item.review_date);
