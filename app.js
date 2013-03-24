@@ -1,6 +1,11 @@
 var express = require('express'),
 	partials = require('express-partials');
-var app = express();
+var app = express(),
+    http = require('http'),
+    server = http.createServer(app),
+    io = require('socket.io').listen(server);   
+
+exports.io = io;
 
 exports.init = function (port) {
     app.configure(function () {
@@ -38,7 +43,7 @@ exports.init = function (port) {
         });
     });
 
-    app.listen(port);
+    server.listen(port);
 
     console.log("Listening on port %d in %s mode", port, app.settings.env);
 

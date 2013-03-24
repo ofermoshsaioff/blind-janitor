@@ -10,17 +10,21 @@
 <% include reviews %>
 <script src="/socket.io/socket.io.js"></script>
 <script>
+  var index = <%= albums.length %>;
   var socket = io.connect(window.location.hostname, {'sync disconnect on unload':true});
   $(window).scroll(function() {
    if($(window).scrollTop() + $(window).height() > $(document).height() - 100) {
-       alert(<%= albums.length %>);
-       socket.emit('fetch', {data: <%= albums.length %> });
+       socket.emit('fetch', {index: index});
+	   index += 20;
    }
   });   
   socket.on('connect', function() {
     console.log('client connected');
   });
   socket.on('more', function (data) {
-    alert(data);
+   var new_albums = jQuery.parseJSON(data);
+   for (var i=0;i<new_albums.length;i++) {
+    $("#ul").append('<li><div class="row-fluid span12"><div align="center"><a href="/reviews/'+new_albums[i].path+'"><div style="width:220px;height:300px;"><img src="/reviews/'+new_albums[i].path+'/cover.jpg"'+new_albums[i].album_cover+'" height="220" width="220"><h4 dir="ltr"> '+new_albums[i].album+'('+new_albums[i].year+')</h4><p dir="ltr"> '+new_albums[i].artist+' </p><a href="/writers/'+new_albums[i].reviewer+'" <p dir="ltr">By: '+new_albums[i].reviewer+' </p></a></div></a></div></div></li>');
+	}	
   });		  	
 </script>

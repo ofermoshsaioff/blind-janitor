@@ -3,13 +3,7 @@ var port = process.env.PORT || 8888,
 	markdown = require('./markdown'),
 	reviews = require('./reviews.json'),
 	async = require('async'),
-	io = require('socket.io').listen(app);
-	
-io.configure(function () {
-    io.set('log level', 1)
-    io.set("transports", ["xhr-polling"]);
-    io.set("polling duration", 10);
-});
+	io = require('./app').io;
 	
 var reviews_arr = [];
 for (key in reviews) {
@@ -88,12 +82,17 @@ app.get('/*', function (req, res) {
 });
 
 // socket.io connection
-
+io.configure(function () {
+    io.set('log level', 1)
+    io.set("transports", ["xhr-polling"]);
+    io.set("polling duration", 10);
+});
+	
 io.sockets.on('connection', function (socket) {
   console.log('connection recieved');
   socket.on('fetch', function(data) {
-    console.log('fetch recieved with: ' + JSON.stringify(data));
-    io.sockets.emit('more', reviews_arr.slice(data,data+20));
+	var index = parseInt(data.index);
+    io.sockets.emit('more', JSON.stringify(reviews_arr.slice(index, index+20)));
 	});
 });    
 
