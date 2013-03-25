@@ -591,5 +591,50 @@
 			"path":			"oracular_spectacular",
 			"review_date":	"2009-02-04",
 			"year":			"2007"
+	},
+	"the_thoughts_of_emerlist_davjack":
+	{
+			"album":		"The Thoughts of Emerlist Davjack",
+			"artist":		"The Nice",
+			"reviewer":		"ערן",
+			"path":			"the_thoughts_of_emerlist_davjack",
+			"review_date":	"2001-08-10",
+			"year":			"1968"
+	},
+	"chelsea_girl":
+	{
+			"album":		"Chelsea Girl",
+			"artist":		"Nico",
+			"reviewer":		"השרת העיוור",
+			"path":			"chelsea_girl",
+			"review_date":	"2001-08-10",
+			"year":			"1967"
+	},
+	"the_altogether":
+	{
+			"album":		"The Altogether",
+			"artist":		"Orbital",
+			"reviewer":		"הדוניסטית",
+			"path":			"the_altogether",
+			"review_date":	"2001-08-11",
+			"year":			"2001"
+	},
+	"stankonia":
+	{
+			"album":		"Stankonia",
+			"artist":		"Outkast",
+			"reviewer":		"yaddo",
+			"path":			"stankonia",
+			"review_date":	"2001-08-11",
+			"year":			"2000"
+	},
+	"dandys_rule_ok":
+	{
+			"album":		"Dandy's Rule OK",
+			"artist":		"The Dandy Warhols",
+			"reviewer":		"יוגב ליפכין",
+			"path":			"dandys_rule_ok",
+			"review_date":	"2003-02-25",
+			"year":			"1995"
 	}
 }	
